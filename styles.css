@@ -1,0 +1,144 @@
+body {
+    background-color: #F3F5FC;
+}
+
+header {
+    display: inline;
+    font-size: 0;
+}
+
+h1 {
+    display: inline;
+}
+
+section {
+    display: inline;
+    font-size: 0;
+}
+
+#div-entrada {
+    padding: 10px;
+    display: inline-block;
+    width: 670px;
+    height: 480px;
+    margin-top: 125px;
+    margin-left: 160px;
+    font-size: 0;
+}
+
+.entrada::placeholder {
+    color: #0A3871;
+    font-size: 32px;
+    font-family: 'Inter';
+    padding-left: 20px;
+}
+
+.entrada {
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-size: 32px;
+    font-family: 'Inter';
+    border-radius: 25px;
+    resize: none;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+
+.aviso {
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+.vector {
+    display: inline;
+    width: 13px;
+    height: 13px;
+}
+
+p {
+    display: inline-block;
+    color: #495057;
+    font-size: 12px;
+    text-align: left;
+    opacity: 0.8;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+.div-criptografar {
+    display: inline;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.criptografar {
+    background-color: #0A3871;
+    color: #D8DFE8;
+    font-size: 16px;
+    border: 1px solid #D8DFE8;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.div-descriptografar {
+    display: inline;
+    margin-top: 30px;
+}
+
+.descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+}
+
+#div-saida {
+    padding: 10px;
+    padding-top: 15px;
+    display: inline;
+    width: 356px;
+    height: 605px;
+    float: right;
+    margin-right: 100px;
+    border-radius: 32px;
+    border: 0;
+    box-shadow: 0 0 0.5em #b3b2b2;
+    opacity: 1;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.saida {
+    color: #495057;
+    font-size: 24px;
+    font-family: 'Inter';
+    resize: none;
+    border-radius: 32px;
+    border: 0;
+    padding: 5px;
+}
+
+#botao-copiar{ text-align: center }
+.copiar-texto {
+    display: inline;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+
+textarea:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}

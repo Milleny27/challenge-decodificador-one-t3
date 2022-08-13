@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Codificador / Decodificador</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <script>
+            function criptografar(frase){
+                return frase.replaceAll("e", "enter").replaceAll("i", "imes").replaceAll("a", "ai").replaceAll("o", "ober").replaceAll("u","ufat");
+            }
+
+            function descriptografar(frase){
+                return frase.replaceAll("enter", "e").replaceAll("imes", "i").replaceAll("ai", "a").replaceAll("ober", "o").replaceAll("ufat","u");
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <h1><img src="logo.png"></h1>
+        </header>
+
+        <main>
+            <section>
+                <div id="div-entrada">
+                    <textarea class="entrada" placeholder="Digite seu texto" rows="10" cols="40"></textarea>
+                    <div class="aviso">
+                        <img class="vector" src="Vector.png"><!--                        --><p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="div-criptografar">
+                        <input class="criptografar" type="submit" value="Criptografar">
+                    </div>
+                    <div class="div-descriptografar">
+                        <input class="descriptografar" type="submit" value="Descriptografar">
+                    </div>
+                </div>
+            </section>
+            <section>
+            <div id="div-saida">
+                <textarea class="saida" rows="20" cols="27"></textarea>
+                <div id="botao-copiar">
+                    <input class="copiar-texto" type="submit" value="Copiar!"> 
+                </div>                   
+            </div>
+            </section>
+        </main>
+
+    </body>
+</html>
