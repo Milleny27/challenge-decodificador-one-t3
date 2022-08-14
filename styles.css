@@ -11,6 +11,12 @@ h1 {
     display: inline;
 }
 
+img {
+    display: inline;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
 section {
     display: inline;
     font-size: 0;
@@ -20,8 +26,8 @@ section {
     padding: 10px;
     display: inline-block;
     width: 670px;
-    height: 480px;
-    margin-top: 125px;
+    height: 550px;
+    margin-top: 90px;
     margin-left: 160px;
     font-size: 0;
 }
@@ -46,7 +52,7 @@ section {
 
 
 .aviso {
-    width: 220px;
+    width: 250px;
     margin-bottom: 10px;
 }
 
@@ -86,6 +92,7 @@ p {
 .div-descriptografar {
     display: inline;
     margin-top: 30px;
+    margin-left: 10px;
 }
 
 .descriptografar {
@@ -98,12 +105,12 @@ p {
     padding: 15px;
 }
 
-#div-saida {
+.div-saida {
     padding: 10px;
     padding-top: 15px;
     display: inline;
     width: 356px;
-    height: 605px;
+    height: 625px;
     float: right;
     margin-right: 100px;
     border-radius: 32px;
@@ -141,4 +148,75 @@ textarea:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        width: auto;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .aviso {
+        width: auto;
+        display: block;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .vector {
+        display: inline;
+        margin: 0;
+    }
+
+    p {
+        display: inline;
+    }
+
+    .entrada {
+        margin-left: 0;
+        width: 95%;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    #div-entrada {
+        width: 90vw;
+        height: auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+        margin: 50px 15px 20px -25px;
+	}
+
+    .div-saida {
+        width: 90vw;
+        height: auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+        margin: -25px 15px 20px -25px;
+    }
+
+    .saida {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .criptografar, .descriptografar {
+        display: block;
+        margin: 30px;
+        width: 90%;
+        text-align: center;
+    }
+    .div-criptografar, .div-descriptografar {
+        display: block;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
 }
